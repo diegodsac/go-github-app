@@ -194,6 +194,7 @@ func consumeCreateEvent(payload EP) error {
 
 	config.Config.GitHubClient.Repositories.Merge(ctx, sourceOwner, sourceRepo, mergeReq)
 	log.Printf("\n########## MERGE ##########\n")
+
 	// installationID := githubapps.GetInstallationIDFromEvent(&payload.E)
 	// ctx, _ := githubapps.PrepareRepoContext(payload.c, installationID, payload.E.GetRepo())
 	// log.Printf("Received Branch from %s", config.Config.GitHubClient)
