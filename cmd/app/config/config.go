@@ -2,7 +2,8 @@ package config
 
 import (
 	"fmt"
-	"github.com/google/go-github/v41/github"
+
+	"github.com/google/go-github/v45/github"
 	"github.com/spf13/viper"
 )
 

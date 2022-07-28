@@ -3,18 +3,17 @@ package main
 import (
 	"fmt"
 
-	"apis"
-
-	"github.com/MartinHeinz/go-github-app/cmd/app/utils"
-	"github.com/MartinHeinz/go-github-app/cmd/app/webhooks"
+	"github.com/diegodsac/go-github-app/cmd/app/apis"
 	"github.com/diegodsac/go-github-app/cmd/app/config"
+	"github.com/diegodsac/go-github-app/cmd/app/utils"
+	"github.com/diegodsac/go-github-app/cmd/app/webhooks"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 func main() {
-	// load application configurations
+	// load application configurationss
 	// 	fmt.Print("teste")
 	if err := config.LoadConfig("./config"); err != nil {
 		panic(fmt.Errorf("invalid application configuration: %s", err))

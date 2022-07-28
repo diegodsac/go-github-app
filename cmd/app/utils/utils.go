@@ -6,7 +6,7 @@ import (
 
 	"github.com/bradleyfalzon/ghinstallation/v2"
 	"github.com/diegodsac/go-github-app/cmd/app/config"
-	"github.com/google/go-github/v41/github"
+	"github.com/google/go-github/v45/github"
 )
 
 func InitGitHubClient() {

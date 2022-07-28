@@ -8,7 +8,7 @@ import (
 
 	"github.com/diegodsac/go-github-app/cmd/app/config"
 	"github.com/gin-gonic/gin"
-	"github.com/google/go-github/v41/github"
+	"github.com/google/go-github/v45/github"
 	"github.com/migueleliasweb/go-github-mock/src/mock"
 	"github.com/stretchr/testify/assert"
 )
